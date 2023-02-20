@@ -16,4 +16,17 @@ I learned how to:
 - Set up character animations for movement, fighting, and dancing
 - Structure a code base and manage dependencies using C# namespaces
 - Use scriptable objects to make the creation of in game items easy for designers (weapon system)
+- Create and decorate level terrain from scratch
+- Implement raycasting for movement and combat
+- Configure a navmesh for player and enemy movement
+- Program enemy AI behaviors such as attacking, patrolling, group aggro, etc.
+- Develop a stats system that is configurable and easy to use for game designers (changes made in editor, not code!)
+- Create different enemy types that each have unique weapons
+- Create various UI components for player HUD (health bar, honor bar, weapon selection)
+- Implement instantiation of projectiles for throwing weapons like the shuriken
+- Create particle effects and trails for weapons/pickups
+- Create pickups that restore the player's health
+- Implement random drop chance for items after killing an enemy (health pickups)
+- Implement random direction for weapon hit effects (blood spray)
+- Implement background music playlist with random shuffle
 - 
