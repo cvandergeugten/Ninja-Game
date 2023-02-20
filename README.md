@@ -13,8 +13,10 @@ After completing a Udemy course (RPG Core Combat Creator: Learn Intermediate Uni
 I learned how to:
 - Import Unity Assets from the Asset Store and configure them for my project
 - Structure project folders and hierarchy in a clean and organized manner
+- Implement various game design patterns (Observer, Singleton, State, etc.)
 - Set up character animations for movement, fighting, and dancing
 - Structure a code base and manage dependencies using C# namespaces
+- Implement an action priority system
 - Use scriptable objects to make the creation of in game items easy for designers (weapon system)
 - Create and decorate level terrain from scratch
 - Implement raycasting for movement and combat
