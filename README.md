@@ -6,7 +6,7 @@
 
 <h1>Summary</h1>
 
-After completing a Udemy course (RPG Core Combat Creator: Learn Intermediate Unity C# Coding) I decided to develop my own version of the game that was created in the course. This project includes programming/editor techniques that I learned from the course as well as assets purchased from the Unity Asset Store (https://assetstore.unity.com/).
+After completing a Udemy course (RPG Core Combat Creator: Learn Intermediate Unity C# Coding) I decided to develop my own version of the game that was created in the course. This project includes programming/editor techniques that I learned from the course as well as assets purchased from the Unity Asset Store (https://assetstore.unity.com/). In this section I will briefly summarize the things that I learned from working on this project and the assets that I used. More detailed descriptions of the project can be found below the summary section.
 
 <br>
 
@@ -29,4 +29,14 @@ I learned how to:
 - Implement random drop chance for items after killing an enemy (health pickups)
 - Implement random direction for weapon hit effects (blood spray)
 - Implement background music playlist with random shuffle
-- 
+- Implement a follow camera for the player using Cinemachine
+- Include a skybox and adjust directional lighting to create desired level lighting
+- Implement various cursors depending on what the player's mouse is hovering over
+- Bind actions to certain keys (switching weapons/ dancing)
+- Use Unity's profiler to diagnose performance issues
+- Implement different C# features such as structs, lists, dictionaries, arrays, etc.
+
+<br>
+
+Assets:
+
