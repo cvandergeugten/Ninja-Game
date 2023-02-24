@@ -62,4 +62,9 @@ The following assets were obtained from the Unity Asset Store and used for this 
 - Water Shaders V2.x (Nick Veselov)
 - Wood & Tree Materials (Alessio Regalbuto)
 
-<br>
+<h1>Project Details</h1>
+
+In this section I will go over each area of the project that I worked on and describe what I learned, how I implemented certain coding techniques, and things I might have done differently.
+
+<h2>Movement</h2>
+
