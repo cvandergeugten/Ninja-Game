@@ -41,4 +41,26 @@ I learned how to:
 <br>
 
 Assets:
+- Books, Scrolls, and Other Things (Vergis)
+- C.V.P - Japanese Garden (Alexander Elert)
+- Dance MoCap 03 (Morro Motion)
+- Death Animations (Polygonmaker)
+- Fantasy Skybox FREE (Render Knight)
+- Flat Shaded - Japan (Halberstram Art)
+- Grass Flowers Pack Free (ALP8310)
+- Human Vocalizations (Gamemaster Audio)
+- LoFi Trip 2 Music (WAVmaniacs)
+- Male Ninja Modular Pack Cute Series (Meshtint Studio)
+- Pixel Cursors (ClayManStudio)
+- Punch and Fighting Sounds (Cafofo)
+- RPG Character Mecanim Animatiojn Pack FREE (Explosive)
+- RPG Essentials Sound Effects - FREE! (leohpaz)
+- Stylized RPG Cursors (Lid Games)
+- Terrain Sample Asset Pack (ALP8310)
+- Throwing Animations (Kevin Iglesias)
+- Volumetric Blood Fluids (kripto289)
+- Water Shaders V2.x (Nick Veselov)
+- Wood & Tree Materials (Alessio Regalbuto)
 
+<br>
+hi
