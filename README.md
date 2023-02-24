@@ -40,7 +40,7 @@ I learned how to:
 
 <br>
 
-Assets:
+The following assets were obtained from the Unity Asset Store and used for this project:
 - Books, Scrolls, and Other Things (Vergis)
 - C.V.P - Japanese Garden (Alexander Elert)
 - Dance MoCap 03 (Morro Motion)
@@ -63,4 +63,3 @@ Assets:
 - Wood & Tree Materials (Alessio Regalbuto)
 
 <br>
-hi
