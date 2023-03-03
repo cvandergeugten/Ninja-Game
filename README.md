@@ -103,6 +103,8 @@ There are two enum files that are used for the definition of character classes a
 
 <h2>Action Scheduler</h2>
 
-The ActionScheduler.cs script is implemented in this project to help create a nice flow to game’s behaviors. Although the script is simple, it plays a vital role in maintaining smooth transitions between different character states such as moving, fighting, and dancing. This script is coupled with the IAction.cs interface script which allows the functionality of the action scheduler to be implemented in all of the appropriate scripts.
+The ActionScheduler.cs script is implemented in this project to help create a nice flow to game’s behaviors. Although the script is simple, it plays a vital role in maintaining smooth transitions between different character states such as moving, fighting, and dancing. This script is coupled with the IAction.cs interface script which allows the functionality of the action scheduler to be implemented in the appropriate scripts.
+
+<h2>Health Pickups</h2>
 
 
