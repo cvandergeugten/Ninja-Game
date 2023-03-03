@@ -82,4 +82,4 @@ The main script responsible for handling the combat is the Fighter.cs script. Th
 
 To supplement the functionality of the fighter script, I had to create a combat target script which is a simple way for our system to detect if the object hit by the raycast is an attackable target. Each character in the game has to have the capsule collider component attached in order to be a valid target. This script also ensures that the player cannot target themselves for an attack (Yes, this was happening!).
 
-
+<h2>Weapons and Projectiles</h2>
