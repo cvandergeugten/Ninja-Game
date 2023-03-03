@@ -107,4 +107,11 @@ The ActionScheduler.cs script is implemented in this project to help create a ni
 
 <h2>Health & Health Pickups</h2>
 
+After developing the basic mechanics for the game, I had to come up with a way for the player to restore the health that they lost from fighting enemies. I initially thought of placing health pickups in pre-determined location on the map, but then decided against this idea as it would make the player’s pathing through each replay to predictable. Instead I decided to give the enemies a random chance of dropping a health pickup so that the player could choose any path in the game and still enjoy the benefits of restoring their health! Each enemy type has a different drop frequency for this health pickup (the more difficult enemies have a much higher chance of dropping a health pickup than easier enemies).
+
+The ItemPickup.cs script provides general functionality for item pickups; in the current state of the project the only pickup that I have is the health pickup. This script handles the behavior of the pickup once the player moves over it (collides with the pickup). The Pickup() method uses the variable healthToRestore to determine if the item is in fact a health pickup. Once the item is determined to be a health pickup, the Heal() method is called from the Attributes namespace in our codebase (in Health.cs) and then the player’s health is adjusted accordingly. 
+
+I added a health bar UI to the player’s HUD so that the player can see how much health they have. The health bar is updated based upon receiving damage or running over a health pickup. Running over multiple health pickups will not allow the player to heal beyond their maximum health pool.
+
+<h2>Sound Effects</h2>
 
