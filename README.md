@@ -101,6 +101,8 @@ Initially I was building this game to have a leveling system similar to common R
 
 There are two enum files that are used for the definition of character classes and each stat. The classes that are currently available to designers are Player, BasicNinja, ShurikenNinja, KunaiNinja, and KatanNinja. The stats that are currently available to designers are Health, HonorReward, HonorToLevelUp, and Damage. More stats can be added and created within the code base and then modified and tuned within the Unity editor using the progression scriptable object.
 
+<h2>Enemy AI</h2>
+
 <h2>Action Scheduler</h2>
 
 The ActionScheduler.cs script is implemented in this project to help create a nice flow to game’s behaviors. Although the script is simple, it plays a vital role in maintaining smooth transitions between different character states such as moving, fighting, and dancing. This script is coupled with the IAction.cs interface script which allows the functionality of the action scheduler to be implemented in the appropriate scripts.
@@ -114,5 +116,14 @@ The ItemPickup.cs script provides general functionality for item pickups; in the
 I added a health bar UI to the player’s HUD so that the player can see how much health they have. The health bar is updated based upon receiving damage or running over a health pickup. Running over multiple health pickups will not heal beyond their maximum health pool.
 
 <h2>Sound Effects & Music</h2>
+
+For the weapon sound effects I utilized the Hit() event attached to each weapon’s animation and implemented the sound.Play() method whenever the Hit() event was triggered. This was super easy to set up in the Unity editor and allowed the game to feature different sound effects for each unique weapon in the game (including unarmed).
+
+I also chose to include some sounds effects for the characters whenever they were taking damage. For this I created a list that I could drop sound clips into and then randomly draw from anytime a character in the game took damage. Have a large list of grunting and pain sounds to draw from gave more of authentic feel when playing the game; otherwise the same repeated sound over and over would drive the player absolutely insane.
+
+I did add some small details sounds to the game as well like a sound for the health pickup and a background soundtrack. The sound effect for the pickup goes off every time the character runs over and pickups up the item (as expected). The soundtrack is made up of a list of a couple licensed songs that are on a random shuffle. The music is a little upbeat and sets a faster tone for the game so when the player feels a bit of a rush while running around and defeating as many enemies as possible.
+
+I initially thought about adding sounds for the footsteps of each character, but I realized that I would have way too many sounds competing with each other and it would sound like an audible mess.
+
 
 
