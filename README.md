@@ -93,3 +93,5 @@ The characters (player and enemies) contain an “Default Weapon” component on
 
 Initially I was building this game with a weapon pickup system for the player, but decided that it would be better for the player to have access to all the weapons in the game at all times. This would give the player creative freedom for how they would like to approach taking down enemies. To achieve this, I used a list to hold all of the weapon scriptable objects and then created a system that cycles through the list based on which hotkey is pressed. This weapon swapping system takes advantage of the EquipWeapon() method which automatically destroys the weapon the player is currently using and replaces it with the target weapon. I made some variants of the weapon prefabs specifically for the player which add visual effects (particle effects and trails) so that the player’s weapons feel more unique than the ones that the enemies are using. To complete the weapon swapping system, I included a simple HUD UI element which indicates which weapon the player currently has selected and what hotkeys are associated with each weapon.
 
+<h2>Stats</h2>
+
