@@ -111,7 +111,8 @@ After developing the basic mechanics for the game, I had to come up with a way f
 
 The ItemPickup.cs script provides general functionality for item pickups; in the current state of the project the only pickup that I have is the health pickup. This script handles the behavior of the pickup once the player moves over it (collides with the pickup). The Pickup() method uses the variable healthToRestore to determine if the item is in fact a health pickup. Once the item is determined to be a health pickup, the Heal() method is called from the Attributes namespace in our codebase (in Health.cs) and then the player’s health is adjusted accordingly. 
 
-I added a health bar UI to the player’s HUD so that the player can see how much health they have. The health bar is updated based upon receiving damage or running over a health pickup. Running over multiple health pickups will not allow the player to heal beyond their maximum health pool.
+I added a health bar UI to the player’s HUD so that the player can see how much health they have. The health bar is updated based upon receiving damage or running over a health pickup. Running over multiple health pickups will not heal beyond their maximum health pool.
 
-<h2>Sound Effects</h2>
+<h2>Sound Effects & Music</h2>
+
 
