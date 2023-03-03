@@ -95,3 +95,10 @@ Initially I was building this game with a weapon pickup system for the player, b
 
 <h2>Stats</h2>
 
+The stats system for this game includes a couple different components that allow for designers to tune the game in a way that fits their vision for the intended playstyle.
+
+Initially I was building this game to have a leveling system similar to common RPG games like World of Warcraft, but had decided later on that I would just use the stats system as a way to easily modify the difficulty of the game for the player. Instead of having enemies provide experience points for being defeated, I modified the system to award “honor” points which contribute to the goal of the game which is to defeat enough enemies to fill up the honor bar in the HUD. The whole system revolves around a progression scriptable object which contains all the details for the characters in the game. With the progression object designers are able to specify the health, damage, honor to victory (player only) , and honor rewarded (enemies only). The progression system utilizes and lookup table that can return the appropriate stat values based on a characters defined class.
+
+There are two enum files that are used for the definition of character classes and each stat. The classes that are currently available to designers are Player, BasicNinja, ShurikenNinja, KunaiNinja, and KatanNinja. The stats that are currently available to designers are Health, HonorReward, HonorToLevelUp, and Damage. More stats can be added and created within the code base and then modified and tuned within the Unity editor using the progression scriptable object.
+
+
