@@ -113,6 +113,10 @@ Initially I was building this game to have a leveling system similar to common R
 
 There are two enum files that are used for the definition of character classes and each stat. The classes that are currently available to designers are Player, BasicNinja, ShurikenNinja, KunaiNinja, and KatanNinja. The stats that are currently available to designers are Health, HonorReward, HonorToLevelUp, and Damage. More stats can be added and created within the code base and then modified and tuned within the Unity editor using the progression scriptable object.
 
+<p align="center">
+  <img width="460" height="300" src="https://github.com/cvandergeugten/Ninja-Game/blob/main/ProjectImages/NG_ProgressSystem_GIF.gif">
+</p>
+
 <h2>Enemy AI</h2>
 
 The AiController.cs script is responsible for handling the behaviors associated with our enemy characters.
