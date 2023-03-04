@@ -100,7 +100,7 @@ As a supplement to the WeaponConfig script, I have included the Projectile.cs sc
 The characters (player and enemies) contain an “Default Weapon” component on them which allows designers to easily dictate which weapons each enemy has. I created many different enemies for this game that have a variety of different weapons: katana, kunai, shuriken, and unarmed.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/cvandergeugten/Ninja-Game/blob/main/ProjectImages/NG_Weapons_GIF.gif">
+  <img width="400" height="250" src="https://github.com/cvandergeugten/Ninja-Game/blob/main/ProjectImages/NG_Weapons_GIF.gif">
 </p>
 
 Initially I was building this game with a weapon pickup system for the player, but decided that it would be better for the player to have access to all the weapons in the game at all times. This would give the player creative freedom for how they would like to approach taking down enemies. To achieve this, I used a list to hold all of the weapon scriptable objects and then created a system that cycles through the list based on which hotkey is pressed. This weapon swapping system takes advantage of the EquipWeapon() method which automatically destroys the weapon the player is currently using and replaces it with the target weapon. I made some variants of the weapon prefabs specifically for the player which add visual effects (particle effects and trails) so that the player’s weapons feel more unique than the ones that the enemies are using. To complete the weapon swapping system, I included a simple HUD UI element which indicates which weapon the player currently has selected and what hotkeys are associated with each weapon.
@@ -114,7 +114,7 @@ Initially I was building this game to have a leveling system similar to common R
 There are two enum files that are used for the definition of character classes and each stat. The classes that are currently available to designers are Player, BasicNinja, ShurikenNinja, KunaiNinja, and KatanNinja. The stats that are currently available to designers are Health, HonorReward, HonorToLevelUp, and Damage. More stats can be added and created within the code base and then modified and tuned within the Unity editor using the progression scriptable object.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/cvandergeugten/Ninja-Game/blob/main/ProjectImages/NG_ProgressSystem_GIF.gif">
+  <img width="350" height="500" src="https://github.com/cvandergeugten/Ninja-Game/blob/main/ProjectImages/NG_ProgressSystem_GIF.gif">
 </p>
 
 <h2>Enemy AI</h2>
