@@ -125,7 +125,15 @@ The main behavior for our enemies is the ability to attack the player. The scrip
 
 The script also controls the aggro mechanic of the game, which will alert and aggravate enemies nearby an enemy that is attacking the player. Before this mechanic was implemented, you would be able to fight two guards that were standing next to each other separately, since engaging in combat with one wouldn’t aggravate the other. The aggro distance for each enemy is a value that designers can adjust to their liking. With the aggro mechanic in place, the player has to be a little more careful about engaging in combat because if too many enemies are standing near each other they will all be alerted.
 
-Enemies also have a Patrol Behavior that is controlled by the script. Enemies can be given patrol paths created in the Unity Editor which are a list of waypoints that are then cycled through by the enemy. The enemy’s patrolling speed can be adjusted, as well as the number of waypoints in the patrol path. If an enemy is not assigned a patrol path they will stand still in the idle animation until they are aggravated and engage in combat. If the player runs away from enemies that they have aggravated and exceeds a specified distance considered too far, the enemy will return to its patrol path or where it had originally been standing before it was aggravated (aggro reset). 
+<p align="center">
+  <img width="460" height="300" src="https://github.com/cvandergeugten/Ninja-Game/blob/main/ProjectImages/NG_AttackBehavior_GIF.gif">
+</p>
+
+Enemies also have a Patrol Behavior that is controlled by the script. Enemies can be given patrol paths created in the Unity Editor which are a list of waypoints that are then cycled through by the enemy. The enemy’s patrolling speed can be adjusted, as well as the number of waypoints in the patrol path. If an enemy is not assigned a patrol path they will stand still in the idle animation until they are aggravated and engage in combat. If the player runs away from enemies that they have aggravated and exceeds a specified distance considered too far, the enemy will return to its patrol path or where it had originally been standing before it was aggravated (aggro reset).
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/cvandergeugten/Ninja-Game/blob/main/ProjectImages/NG_Patrol_GIF.gif">
+</p>
 
 There are many variables for designers to adjust such as the speed at which an enemy patrols, how long they dwell at each waypoint in a patrol path before they move to the next one, and how far they will chase a player before returning to their post.
 
